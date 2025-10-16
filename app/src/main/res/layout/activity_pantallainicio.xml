@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="MI DINERO"
+        android:text="Mi Dinero"
         android:textColor="#FFD700"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -93,43 +93,44 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-    <!-- Barra inferior con 3 botones -->
     <LinearLayout
         android:id="@+id/barra_inferior"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:orientation="horizontal"
-        android:background="#333333"
+        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <Button
+        <ImageButton
             android:id="@+id/boton1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Inicio"
-            android:backgroundTint="@color/white"
-            />
+            android:backgroundTint="@color/black"
+            android:src="@drawable/imagencasa"/>
 
-        <Button
+        <ImageButton
             android:id="@+id/boton2"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Ingresos"
-            android:backgroundTint="@color/white"
-            />
+            android:text="reloj"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/relojimagen"/>
 
-        <Button
+        <ImageButton
             android:id="@+id/boton3"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Gastos"
-            android:backgroundTint="@color/white"
-            />
+            android:text="menu"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/menu"/>
+
+
 
     </LinearLayout>
 
