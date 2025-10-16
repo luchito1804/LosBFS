@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Por Defecto -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <!-- Escala de Negros -->
+    <color name="black_absolute">#000000</color>
+    <color name="black_rich">#080808</color>
+    <color name="black_jet">#0D0D0D</color>
+    <color name="black_ebony">#121212</color>
+    <color name="black_charcoal">#1A1A1A</color>
+    <color name="black_onyx">#1F1F1F</color>
+
+    <!-- Escala de Grises Oscuros -->
+    <color name="gray_darkest">#212121</color>
+    <color name="gray_darker">#2D2D2D</color>
+    <color name="gray_dark">#424242</color>
+    <color name="gray_medium_dark">#555555</color>
+
+    <!-- Escala de Grises Medios -->
+    <color name="gray_medium">#757575</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="gray_light_medium">#BDBDBD</color>
+
+    <!-- Escala de Grises Claros -->
+    <color name="gray_light">#E0E0E0</color>
+    <color name="gray_very_light">#EEEEEE</color>
+    <color name="gray_lightest">#F5F5F5</color>
+
+    <!-- Amarillos dorados -->
+    <color name="yellow_gold">#FFD700</color>
+    <color name="yellow_gold_dark">#D4AF37</color>
+    <color name="yellow_goldenrod">#DAA520</color>
+    <color name="yellow_metallic">#B8860B</color>
+
+    <!-- Amarillos mostaza y ocres -->
+    <color name="yellow_mustard">#FFDB58</color>
+    <color name="yellow_ocher">#CC7722</color>
+    <color name="yellow_mustard_dark">#FFCC02</color>
+    <color name="yellow_spice">#E1AD01</color>
 </resources>
