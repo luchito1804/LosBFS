@@ -23,10 +23,11 @@
         android:id="@+id/titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="72dp"
         android:text="Agregar\nMovimientos"
         android:textColor="#D4AF37"
         android:textSize="35sp"
-        android:layout_marginStart="20dp"
         app:layout_constraintStart_toEndOf="@id/botonflecha"
         app:layout_constraintTop_toTopOf="@id/botonflecha" />
 

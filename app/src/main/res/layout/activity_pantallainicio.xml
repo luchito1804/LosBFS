@@ -28,8 +28,7 @@
     <ImageView
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:layout_margin="@android:dimen/app_icon_size"
-        android:src="@drawable/imagenM"
+        android:src="@drawable/Logo"
         tools:layout_editor_absoluteX="48dp"
         tools:layout_editor_absoluteY="16dp" />
 
